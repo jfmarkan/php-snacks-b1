@@ -1,7 +1,15 @@
 <?php 
 
-$a = [a,b,c,d,e];
-$b = [1,2,3,4,5];
+    $letters = ['a','b','c','d','e'];
+    $numbers = [1,2,3,4,5];
 
-efihjweohjtw
+    var_dump($letters, $numbers);
+
+    $result = [];
+
+    for ($i=0; $i < count($letters) ; $i++) { 
+       array_push($result, $letters[$i], $numbers[$i]);
+    }
+
+    var_dump($result);
 ?>
